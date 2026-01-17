@@ -1,5 +1,8 @@
+
+
 ## Pull required models:
 ```bash
+cd backend
 ollama pull llama3
 ollama pull nomic-embed-text
 ```
@@ -38,7 +41,7 @@ http://localhost:8000/docs
 
 Move to frontend folder:
 ```bash
-cd frontend
+cd Frontend
 npm install
 npm run dev
 ```
